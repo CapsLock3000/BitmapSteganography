@@ -2,7 +2,7 @@
 
 Library with client to hide data in uncompressed bitmap.
 
-![ScreenShot](screenshot.png)
+![ScreenShot](screenshot.PNG)
 
 ## Contents
 
