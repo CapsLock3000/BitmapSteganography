@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapSteganography.Library
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapSteganography.Library.Test", "BitmapSteganography.Library.Test\BitmapSteganography.Library.Test.csproj", "{9F71F02F-7C45-466F-80C8-F4C112CBFDC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapSteganography.Client", "BitmapSteganography.Client\BitmapSteganography.Client.csproj", "{F2EEDF38-4A49-4562-8306-DA468C8EDD8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9F71F02F-7C45-466F-80C8-F4C112CBFDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F71F02F-7C45-466F-80C8-F4C112CBFDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F71F02F-7C45-466F-80C8-F4C112CBFDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EEDF38-4A49-4562-8306-DA468C8EDD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EEDF38-4A49-4562-8306-DA468C8EDD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EEDF38-4A49-4562-8306-DA468C8EDD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EEDF38-4A49-4562-8306-DA468C8EDD8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

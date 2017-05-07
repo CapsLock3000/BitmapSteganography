@@ -1,0 +1,35 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+        Icons from https://materialdesignicons.com/
+        
+        In comments are icon names.
+    -->
+
+    <!-- content-save -->
+    <Viewbox x:Key="SaveIconViewbox" x:Shared="False" Width="16" Height="16">
+        <Canvas Width="24" Height="24">
+            <Path
+                Data="M15,9H5V5H15M12,19A3,3 0 0,1 9,16A3,3 0 0,1 12,13A3,3 0 0,1 15,16A3,3 0 0,1 12,19M17,3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V7L17,3Z"
+                Fill="#404040" />
+        </Canvas>
+    </Viewbox>
+
+    <!-- lock-open-outline -->
+    <Viewbox x:Key="DecodeIconViewbox" x:Shared="False" Width="16" Height="16">
+        <Canvas Width="24" Height="24">
+            <Path
+                Data="M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10A2,2 0 0,1 6,8H15V6A3,3 0 0,0 12,3A3,3 0 0,0 9,6H7A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,17A2,2 0 0,1 10,15A2,2 0 0,1 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17Z"
+                Fill="#404040" />
+        </Canvas>
+    </Viewbox>
+
+    <!-- lock-closed -->
+    <Viewbox x:Key="EncodeIconViewbox" x:Shared="False" Width="16" Height="16">
+        <Canvas Width="24" Height="24">
+            <Path
+                Data="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"
+                Fill="#404040" />
+        </Canvas>
+    </Viewbox>
+</ResourceDictionary>
